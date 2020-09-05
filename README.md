@@ -1,0 +1,1 @@
+# Выполнение тестового задания https://test.megapolis-it.ru/
