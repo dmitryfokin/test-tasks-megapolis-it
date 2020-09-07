@@ -38,6 +38,9 @@ export function createTasksStore(): TasksStoreType {
 
     async addTask( title ) {
       try {
+        if ( title.trim().length === 0 )
+          throw new Error( `Ошибка создания новой задачи: Краткое описание не может быть пустым!` )
+
         const res = await postTask( title )
         if ( !res.success )
           throw new Error( `Ошибка API: ${res.error}` )
@@ -62,6 +65,9 @@ export function createTasksStore(): TasksStoreType {
 
     async updateTask( task ) {
       try {
+        if ( task.title.trim().length === 0 )
+          throw new Error( `Ошибка редактирование задачи №${task.id}: Краткое описание не может быть пустым!` )
+
         const _task = await this.getTaskById( task.id )
 
         if ( _task.title === task.title )
