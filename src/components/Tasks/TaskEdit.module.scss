@@ -1,0 +1,33 @@
+.TaskEdit {
+  padding: 40px 64px;
+}
+
+.TaskEdit_Form {
+  width: 100%;
+  text-align: left;
+}
+
+.TaskEdit_Header {
+  width: 100%;
+  margin-bottom: 22px;
+
+  text-align: left;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.TaskCreate__TitleLabelWrapper {
+  margin-bottom: 16px;
+  color: #4D4D4D;;
+}
+
+.TaskEdit__TitleInput {
+  border: none;
+  padding-left: 16px;
+  margin-bottom: 34px;
+  width: 400px;
+
+  font-size: 14px;
+  line-height: 16px;
+}

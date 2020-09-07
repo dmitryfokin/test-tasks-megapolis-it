@@ -1,0 +1,84 @@
+.TasksList {
+  max-width: 1153px;
+  margin: 0 auto;
+}
+
+.TasksList__Title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.TasksList__TitleText {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.TasksList__TableWrapper {
+  & table {
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+  }
+}
+
+.TaskCreate__wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TasksList__Table {
+  width: 100%;
+
+  border-collapse: collapse;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+
+  font-family: Tahoma;
+  line-height: 17px;
+
+  text-align: left;
+
+  & td {
+    height: 42px;
+    border: 1px solid #E6E6E6;
+  }
+}
+
+.TasksList__TableNumber {
+  width: 162px;
+  min-width: 162px;
+  padding-left: 21px;
+}
+
+.TasksList__TableTitleText {
+  padding-left: 20px;
+}
+
+.TasksList__TableTDIcons {
+  width: 101px;
+}
+
+.TasksList__TableIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 22px;
+  padding-right: 11px;
+
+  width: 101px;
+}
+
+.TasksList__TableIcon {
+  height: 22px;
+
+  cursor: pointer;
+}

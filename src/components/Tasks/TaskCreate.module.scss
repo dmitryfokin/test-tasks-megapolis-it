@@ -1,0 +1,63 @@
+.TaskCreate {
+  padding: 32px;
+
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.TaskCreate_Form {
+  width: 398px;
+
+  text-align: left;
+}
+
+.TaskCreate__TitleLabelWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  & label {
+    margin-bottom: 12px;
+
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.TaskCreate__TitleCancelImgWrapper {
+  width: 14px;
+  height: 14px;
+
+  cursor: pointer;
+}
+
+.TaskCreate__TitleInput {
+  width: 398px;
+  height: 40px;
+
+  padding-left: 5px;
+  margin-bottom: 8px;
+
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.TaskCreate__InputInvalidMessage {
+  margin-bottom: 4px;
+
+  height: 8px;
+
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #FF0000;
+}
+
+.TaskCreate__ButtonsWrapper {
+  text-align: right;
+}
